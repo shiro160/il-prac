@@ -10,7 +10,7 @@ RUN yes | unminimize 2>&1 \
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 RUN apt-get update && \
-    apt-get install -y && \
+    apt-get install -y \
         git \
         vim \
         ca-certificates \ 
