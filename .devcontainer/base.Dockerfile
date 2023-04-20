@@ -14,5 +14,6 @@ RUN apt-get update && \
         git \
         vim \
         ca-certificates \ 
+        curl
 
 RUN apt-get clean -y && rm -rf /var/lib/apt/lists/* /tmp/library-scripts
