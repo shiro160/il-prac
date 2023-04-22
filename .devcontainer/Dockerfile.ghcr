@@ -7,4 +7,7 @@ RUN apt-get update && \
         apache2 \
         php
 
+USER root
+
 WORKDIR /var/www/html/
+CMD ["apachectl", "-D", "FOREGROUND"]
