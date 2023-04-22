@@ -15,7 +15,7 @@
 	"containerUser":"root",
 	"overrideCommand": false,
 	"workspaceMount": "source=${localWorkspaceFolder}/src,target=/var/www/html,type=bind,consistency=cached",
-	"workspaceFolder": "prac.code-workspace",
+	"workspaceFolder": "${localWorkspaceFolder}/prac.code-workspace",
 	"customizations": {
 		"vscode": {
 			"settings": {
