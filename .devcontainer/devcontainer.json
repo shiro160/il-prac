@@ -25,7 +25,11 @@
 					}
 				},
 				"terminal.integrated.defaultProfile.linux": "bash"
-			}
+			},
+			"extensions": [
+				"bmewburn.vscode-intelephense-client",
+				"zobo.php-intellisense"
+			]
 		}
 	}
 }
