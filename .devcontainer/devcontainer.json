@@ -28,7 +28,8 @@
 			},
 			"extensions": [
 				"bmewburn.vscode-intelephense-client",
-				"zobo.php-intellisense"
+				"zobo.php-intellisense",
+				"GitHub.copilot"
 			]
 		}
 	}
